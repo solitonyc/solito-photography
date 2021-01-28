@@ -4,7 +4,7 @@ export default class Main extends Component {
     render() {
         return (
             <div>
-                THIS IS THE FIRST PAGE
+                THIS IS THE MAIN PAGE!
             </div>
         )
     }
