@@ -7,6 +7,7 @@ function App() {
       <h2>This site is still in development.</h2>
       <h3>But you can still...</h3>
       <a target="_blank" href="https://studio.solitophotography.com">Buy Solito's Photography and Wall Art here.</a>
+     
     </div>
   );
 }
