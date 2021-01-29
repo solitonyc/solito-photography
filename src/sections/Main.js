@@ -1,7 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import mainBgImage from './images-sections/solitophotography.jpg';
+import './main.css';
 
 export default class Main extends Component {
     render() {
+        let style = {
+            backgroundImage: `url(${mainBgImage})`
+        }
         return (
             <div className="App">
                 <h1>Welcome to Solito's Photography!</h1>

@@ -1,15 +1,26 @@
-import './App.css';
+import React, {Component} from 'react';
+import Navigation from './components/Navigation';
+import Main from './sections/Main';
+import Photos from './sections/Photos';
+import About from './sections/About';
+import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Welcome to Solito's Photography!</h1>
-      <h2>This site is still in development.</h2>
-      <h3>But you can still...</h3>
-      <a target="_blank" href="https://studio.solitophotography.com">Buy Solito's Photography and Wall Art here.</a>
-     
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Navigation />
+        <Main />
+        <Photos />
+        <About />
+        <Contact />
+        <Footer />
+      
+      </div>
+    );
+  }
 }
 
 export default App;
