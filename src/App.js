@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {Component} from 'react';
 
 import Photos from './sections/Photos';
@@ -21,6 +22,16 @@ class App extends Component {
     );
   }
 
+=======
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <p>HELLO</p>
+    </div>
+  );
+>>>>>>> parent of 5eb20aa... added welcome message to home page
 }
 
 export default App;
