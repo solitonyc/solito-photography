@@ -6,6 +6,7 @@ import About from './sections/About';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 
+<<<<<<< HEAD
 class App extends Component {
 
   render() {
@@ -21,6 +22,8 @@ class App extends Component {
       </div>
     );
   }
+=======
+>>>>>>> 2787e0b5958b7e3aa519aa6859b2ed6b013a732d
 
 }
 
