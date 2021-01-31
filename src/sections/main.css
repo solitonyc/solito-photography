@@ -3,3 +3,6 @@
     height: 800px;
     background-color: yellow;
 }
+.main_content_container {
+    margin: 0 auto;
+}
