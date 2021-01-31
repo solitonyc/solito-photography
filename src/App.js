@@ -3,6 +3,7 @@ import Navigation from './nav-bar/Navigation';
 import Main from './sections/Main';
 import About from './sections/About';
 import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
 
 class App extends Component {
@@ -16,7 +17,7 @@ class App extends Component {
         <Main />
         <About />
         <Contact />        
-      
+        <Footer />
       </div>
     );
   }
