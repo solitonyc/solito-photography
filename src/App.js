@@ -5,7 +5,6 @@ import About from './sections/About';
 import Contact from './sections/Contact';
 
 
-
 class App extends Component {
   componentDidMount() {
     window.scrollTo(0, 0)
@@ -21,7 +20,6 @@ class App extends Component {
       </div>
     );
   }
-
 }
 
 export default App;
