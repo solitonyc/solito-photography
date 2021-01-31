@@ -41,12 +41,14 @@
     font-size: 8em;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
+    line-height: 1em;
 }
 .main_headline_2 {
     font-family: 'Playfair Display', serif;
     font-size: 4em;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
+    line-height: 2em;
 }
 .main_section_body {
     font-family: 'Playfair Display', serif;
@@ -57,14 +59,14 @@
 .main_button {
     font-family: 'Raleway', sans-serif;
     background-color: rgba(255,255,255,1);
-    border-radius: 8px;
+    border-radius: 12px;
     border: 1px white solid;
     color: rgba(0,0,0,1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.75em;
     transition: all 0.3s;
-    padding: 1em;
     margin: 1em;
-    line-height: 4;
+    line-height: 3;
     text-decoration: none;
     text-align: center;
     width: 20em;
