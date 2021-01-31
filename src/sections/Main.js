@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
 import './main.css';
+import mainBgImage from './images-sections/bg-01.jpg';
+import {Link} from 'react-router-dom';
 
 export default class Main extends Component {
-    render() {
+     render() {
+        let style = {
+            backgroundImage: `url(${mainBgImage})`
+        }
         return (
             <div className='main_section' id='main'>
-                <div className='main_content_container'>
-                    <h1>Welcome to Solito's Photography Website</h1>
-                    <h3>This site is currently Under Construction.</h3>
-                    <a target="_blank" href='studio.solitophotography.com'>BUY PHOTOS &amp; WALL ART</a>
+                <div style={style} className='main_section_background'>
+                    <div className='main_section_content_container'>
+                        <div className="main_headline">Welcome to Solito's Photography Website</div>
+                        <div className='main_headline_2'>This site is currently Under Construction.</div>
+                        <Link to='buysite' className='main_button' target="_blank" href='studio.solitophotography.com'>BUY PHOTOS &amp; WALL ART</Link>
+                    </div>
                 </div>
             </div>
         )
