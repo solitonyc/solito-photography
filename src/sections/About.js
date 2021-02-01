@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
 import './about.css';
+import React, { Component } from 'react';
 import mainBgImage from './images-sections/bg-03.jpg';
+
 
 export default class About extends Component {
     render() {
