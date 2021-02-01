@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
 
-.pg_section {    
+
+/* .pg_section {    
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -33,8 +33,6 @@
 	justify-content: center;
 	align-items: stretch;
 	align-content: stretch;
-    /* height: 80vh; */
-    /* max-width: 1200px; */
     width: 80vw;
 }
 .pg_headline {
@@ -43,4 +41,201 @@
     color: rgb(255,255,255);
     letter-spacing: .25rem;
     line-height: 1em;
+} */
+
+/* ------- TOP HEADER SECTION --------------------------------- */
+.pg_grid_section {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+    align-content: stretch;
+    background-color: rgb(0,0,0);
+    width: 100vw;
 }
+.pg_grid_header {
+    font-family: 'Playfair Display', serif;
+    font-size: 84px;
+    color: rgb(255,255,255);
+    letter-spacing: .2em;
+    line-height: 1em;
+    word-spacing: .5em;
+    margin: 0 auto;
+    padding: .5em;
+    position: relative;
+}
+.pg_grid_secondline {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: rgb(255,255,255);
+    letter-spacing: 1.4px;
+    line-height: .7em;
+    word-spacing: .25em;
+    margin: 0 auto;
+    padding: .25em;
+}
+
+/*------------------ PHOTOGALLERY GRID CODE -------------------------*/
+/* -------------- DESKTOP PHOTO GALLERY GRID CODE - (Min Width 1500px)------------------------------------- */
+.pg_grid_container {
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-auto-rows: 400px;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    justify-items: stretch;
+    align-items: stretch;
+    margin: 10em;
+}
+.pg_grid_box {
+    width: 100%;
+    height: 100%;
+    /* overflow:hidden hides parts of images that cross over another */
+    overflow: hidden;
+    position: relative;
+}
+.pg_grid_image {
+    width: 100%;
+    height: 100%;
+    /* object-fit:cover makes image auto size itself and fills in space */
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+.pg_grid_image:hover {
+    /* makes images pop bigger */
+    transform:scale(1.25);
+    transition: .2s ease-in-out;
+}
+
+/* ----------- GALLERY GRID SPANNING CONTROLS ---- DEFAULT DESKTOP SCREENS --------- */
+.p-1 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-3 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-4 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-5 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-6 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-7 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-8 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-9 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-10 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-11 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-12 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-13 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-14 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-15 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-16 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-17 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-18 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-19 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-20 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-21 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-22 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-23 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-24 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-25 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-26 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-27 {
+    grid-column: span 1; 
+    grid-row: span 1;
+}
+.p-28 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-29 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-30 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-31 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.p-32 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+/*------------- PHOTOGALLERY CODE ENDS HERE ------------------*/
