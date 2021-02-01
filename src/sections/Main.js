@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
 import './main.css';
+import React, { Component } from 'react';
 import mainBgImage from './images-sections/bg-01.jpg';
 import {Link} from 'react-router-dom';
 
