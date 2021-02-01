@@ -4,6 +4,7 @@ import Main from './sections/Main';
 import About from './sections/About';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
+import Photogallery from './sections/Photogallery';
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
       <div className="App">
         <Navigation />
         <Main />
+        <Photogallery />
         <About />
         <Contact />        
         <Footer />
