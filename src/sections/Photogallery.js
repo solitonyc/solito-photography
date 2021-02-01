@@ -34,7 +34,7 @@ import PhotoImage028 from '../sections/images-photogallery/b1_img.jpg';
 export default class Photogallery extends Component {
     render() {   
         return (
-            <div className='pg_grid_section'>
+            <div className='pg_grid_section' id='photogallery'>
                 <div className='pg_grid_header'>PHOTO  GALLERY</div>
                 <div className='pg_grid_secondline'>By SOLITO REYES II</div>
                 <div className='pg_grid_container'>
