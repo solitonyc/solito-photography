@@ -14,7 +14,7 @@ export default class Main extends Component {
                     <div className='main_section_content_container'>
                         <div className="main_headline">SOLITO PHOTOGRAPHY </div>
                         <div className='main_headline_2'>Site is currently Under Construction.</div>
-                        <div className='main_copy'>You can still buy photos alone or framed as wall decor:</div>
+                        <div className='main_copy'>You can still buy photos alone <br />or framed as wall decor:</div>
                         <Link to={{ pathname: 'studio.solitophotography.com' }} className='main_button' target="_blank" >Shop Photography</Link>
                     </div>
                 </div>
