@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
 import './contact.css';
+import React, { Component } from 'react';
+
 
 export default class Contact extends Component {
     render() {
