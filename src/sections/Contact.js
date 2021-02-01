@@ -5,7 +5,9 @@ export default class Contact extends Component {
     render() {
         return (
             <div className='contact_section' id='contact'>
-                <h1>This is the CONTACT section</h1>
+                <div className='pg_section_content_container'>
+                    <div className='contact_headline'>This is the CONTACT section</div>
+                </div>                    
             </div>
         )
     }

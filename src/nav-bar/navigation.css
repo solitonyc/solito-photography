@@ -29,7 +29,7 @@
 
 .nav-bar > .active {
     font-family: 'Raleway', sans-serif;
-    color: peru;
+    color: rgb(219, 84, 31);
     border-bottom: 2px solid white;    
 }
 
