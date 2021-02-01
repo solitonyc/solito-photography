@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap')
 
 .main_section {    
     display: flex;
@@ -42,19 +41,22 @@
     color: rgb(255,255,255);
     letter-spacing: .25rem;
     line-height: 1em;
+    margin: .25em 0;
 }
 .main_headline_2 {
     font-family: 'Playfair Display', serif;
     font-size: 4em;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
-    line-height: 2em;
+    line-height: .9em;
+    margin: .25em 0;
 }
-.main_section_body {
-    font-family: 'Playfair Display', serif;
-    font-size: 4em;
+.main_copy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
+    margin: 1.5em 0 0;
 }
 .main_button {
     font-family: 'Raleway', sans-serif;
@@ -63,13 +65,13 @@
     border: 1px white solid;
     color: rgba(0,0,0,1);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.75em;
+    font-size: 1.5em;
     transition: all 0.3s;
-    margin: 1em;
-    line-height: 3;
+    margin: 1em 0;
+    line-height: 2;
     text-decoration: none;
     text-align: center;
-    width: 20em;
+    width: 17em;
     
 }
 .main_button:hover {
