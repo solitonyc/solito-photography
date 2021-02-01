@@ -34,7 +34,7 @@ export default class Navigation extends Component {
                     smooth={true}
                     offset={-38}
                     duration={500}
-                    >PHOTOGALLERY</Link>
+                    >PHOTO GALLERY</Link>
 
                 <Link
                     className='nav-links'
