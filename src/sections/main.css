@@ -56,23 +56,24 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: rgb(255,255,255);
-    letter-spacing: .25rem;
+    /* letter-spacing: .08rem; */
     margin: 1.5em 0 0;
 }
 .main_button {
-    font-family: 'Raleway', sans-serif;
-    background-color: rgba(255,255,255,1);
-    border-radius: 12px;
-    border: 1px white solid;
-    color: rgba(0,0,0,1);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    font-weight: 800;
+    /* background-color: rgb(76, 210, 219); */
+    background-image: linear-gradient(#df9713, #332819);
+    border-radius: 25px;
+    border: 2px rgb(0,0,0) solid;
+    color: rgb(255,255,255);
     transition: all 0.3s;
     margin: 1em 0;
-    line-height: 2;
+    line-height: 3;
     text-decoration: none;
     text-align: center;
-    width: 17em;
+    width: 14em;
     
 }
 .main_button:hover {
