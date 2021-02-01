@@ -52,4 +52,5 @@
     text-shadow: rgba(0,0,0,1) .04em .04em;
     /* letter-spacing: .08rem; */
     margin: 1.5em 0 0;
+    max-width: 30em;
 }
