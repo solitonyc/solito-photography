@@ -1,5 +1,6 @@
 import './photogallery.css';
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 import PhotoImage001 from '../sections/images-photogallery/a_img.jpg';
 import PhotoImage002 from '../sections/images-photogallery/b_img.jpg';
@@ -29,14 +30,16 @@ import PhotoImage025 from '../sections/images-photogallery/y_img.jpg';
 import PhotoImage026 from '../sections/images-photogallery/z_img.jpg';
 import PhotoImage027 from '../sections/images-photogallery/a1_img.jpg';
 import PhotoImage028 from '../sections/images-photogallery/b1_img.jpg';
+import PhotoImage029 from '../sections/images-photogallery/c1_img.jpg';
+import PhotoImage030 from '../sections/images-photogallery/d1_img.jpg';
+import PhotoImage031 from '../sections/images-photogallery/e1_img.jpg';
+import PhotoImage032 from '../sections/images-photogallery/f1_img.jpg';
 
 
 export default class Photogallery extends Component {
     render() {   
         return (
-            <div className='pg_grid_section' id='photogallery'>
-                <div className='pg_grid_header'>PHOTO  GALLERY</div>
-                <div className='pg_grid_secondline'>By SOLITO REYES II</div>
+            <div className='pg_section' id='photogallery'>             
                 <div className='pg_grid_container'>
                     <div className='pg_grid_box p-1'>
                         <img className='pg_grid_image' alt='' src={PhotoImage001} />
@@ -122,9 +125,22 @@ export default class Photogallery extends Component {
                     <div className='pg_grid_box p-28'>
                         <img className='pg_grid_image' alt='' src={PhotoImage028} />
                     </div>
-
-                    
-                </div>           
+                    <div className='pg_grid_box p-29'>
+                        <img className='pg_grid_image' alt='' src={PhotoImage029} />
+                    </div>
+                    <div className='pg_grid_box p-30'>
+                        <img className='pg_grid_image' alt='' src={PhotoImage030} />
+                    </div>
+                    <div className='pg_grid_box p-31'>
+                        <img className='pg_grid_image' alt='' src={PhotoImage031} />
+                    </div>                   
+                    <div className='pg_grid_box p-32'>
+                        <img className='pg_grid_image' alt='' src={PhotoImage032} />
+                    </div>                    
+                </div> 
+                <div className='pg_body'>Check out my online store for buying photography images and as framed wall art:</div> 
+                <Link to={{ pathname: 'https://studio.solitophotography.com' }} rel='noreferrer' className='common_button' target="_blank" >Shop Photography</Link>  
+                   
             </div>
         )
     }

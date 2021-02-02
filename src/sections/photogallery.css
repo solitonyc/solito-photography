@@ -1,60 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
 
 
-/* .pg_section {    
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(0,0,0,1);
-}
-.pg_section_background {
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-attachment: fixed;  
-}
-.pg_section_content_container {
-    margin: 0 auto;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: stretch;
-	align-content: stretch;
-    width: 80vw;
-}
-.pg_headline {
-    font-family: 'Playfair Display', serif;
-    font-size: 8em;
-    color: rgb(255,255,255);
-    letter-spacing: .25rem;
-    line-height: 1em;
-} */
-
 /* ------- TOP HEADER SECTION --------------------------------- */
-.pg_grid_section {
+.pg_section {
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 	align-items: stretch;
     align-content: stretch;
     background-color: rgb(0,0,0);
     width: 100vw;
 }
-.pg_grid_header {
+.pg_header {
     font-family: 'Playfair Display', serif;
     font-size: 84px;
     color: rgb(255,255,255);
@@ -65,7 +23,7 @@
     padding: .5em;
     position: relative;
 }
-.pg_grid_secondline {
+.pg_secondline {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     color: rgb(255,255,255);
@@ -75,18 +33,50 @@
     margin: 0 auto;
     padding: .25em;
 }
+.pg_button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    font-weight: 800;
+    /* background-color: rgb(76, 210, 219); */
+    background-image: linear-gradient(#13c1df, #0f3381);
+    border-radius: 1em;
+    border: 1px rgb(0,0,0) solid;
+    color: rgb(255,255,255);
+    transition: all 0.3s;
+    margin: 1em 0 2em;
+    line-height: 3;
+    text-decoration: none;
+    text-align: center;
+    width: 14em;  
+}
+.pg_body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    font-weight: 800;
+    color: rgb(255,255,255);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+    align-content: stretch;
+    background-color: rgb(0,0,0);
+    width: 100vw;
+    margin: .5em .5em 0;
+    padding: 1.5em .5em 0;
+}
 
 /*------------------ PHOTOGALLERY GRID CODE -------------------------*/
 /* -------------- DESKTOP PHOTO GALLERY GRID CODE - (Min Width 1500px)------------------------------------- */
 .pg_grid_container {
     display: grid;
-    grid-template-columns: repeat(4,2fr);
-    grid-auto-rows: 400px;
+    grid-template-columns: repeat(4,1fr); /* 4 column spaces and we'll see 1 fraction "visual columns" per column space */
+    grid-auto-rows: 300px 400px; /* each row will alternate with these sizes */
     grid-column-gap: 12px;
-    grid-row-gap: 12px;
+    grid-row-gap: 12px; 
     justify-items: stretch;
     align-items: stretch;
-    margin: 10em;
+    margin: 10em 10em 1em;
 }
 .pg_grid_box {
     width: 100%;
