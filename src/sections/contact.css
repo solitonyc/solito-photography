@@ -64,5 +64,7 @@
     max-width: 30em;
 }
 .bold_this {
+    font-family: 'Playfair Display', serif;
     font-weight: 900;
+    font-size: 1.1em;
 }
