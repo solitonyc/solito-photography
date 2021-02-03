@@ -25,7 +25,7 @@
     position: relative;
     background-attachment: fixed;  
 }
-.about_section_content_container {
+.about_content_container {
     margin: 0 auto;
     display: flex;
 	flex-direction: column;
@@ -47,7 +47,7 @@
 }
 .about_copy {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: rgb(255,255,255);
     text-shadow: rgba(0,0,0,1) .04em .04em;
     /* letter-spacing: .08rem; */
