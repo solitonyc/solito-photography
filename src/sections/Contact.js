@@ -7,8 +7,22 @@ export default class Contact extends Component {
         return (
             <div className='contact_section' id='contact'>
                 <div className='contact_content_container'>
-                    <div className='contact_headline'>This is the CONTACT section</div>
-                    <div className='contact_copy'>Voluptate est eiusmod nulla adipisicing laboris nulla deserunt quis cillum cillum consectetur sunt eiusmod pariatur.</div>
+                    <div className='contact_headline'>Hire Me</div>
+                    <div className='contact_headline2'>Contact Me For the Following:</div>
+                    <div className='contact_copy'>
+                        <ul>
+                            <li>Social Media Content</li>
+                            <li>Unique Website Content</li>
+                            <li>Commercial &amp; Business Use</li>
+                            <li>Business Head &amp; Body Shots</li>
+                            <li>Real Estate</li>
+                            <li>Products</li>
+                            <li>Events</li>
+                            <li>Specific Contract Work</li>
+                        </ul>
+                        <p>Phone: (646) 403.7500<br />
+                        Email: solito@xegomedia.com</p>
+                    </div>
                 </div>                    
             </div>
         )

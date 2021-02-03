@@ -44,14 +44,22 @@
     margin: .25em 0;
     color: rgb(0,0,0);
 }
+.contact_headline2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    letter-spacing: .25rem;
+    line-height: 1em;
+    margin: .25em 0 0;
+    color: rgb(0,0,0);
+}
 .contact_copy {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: rgb(0,0,0);
-    letter-spacing: .25rem;
+    letter-spacing: .15rem;
     line-height: 1em;
     /* text-shadow: rgb(0,0,0) .04em .04em; */
     /* letter-spacing: .08rem; */
-    margin: 1.5em 0 0;
+    margin: 0 0 0;
     max-width: 30em;
 }
