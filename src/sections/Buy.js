@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './buy.css';
+import {Link} from 'react-router-dom';
 
 export default class Buy extends Component {
     render() {
         return (
             <div className='buy_section' id='buy'>
                 <div className='buy_content_container'>
-                    <div className='buy_headline'>This is the BUY section</div>
-                    <div className='buy_copy'>Labore proident reprehenderit cillum voluptate dolore aliquip id in ea tempor id amet sunt.</div>
+                    <div className='buy_headline'>Browse my photography store</div>
+                    <div className='buy_copy'>Build your collection of urban photography, with cities such as Manhattan. We provide you the option of buying high-resolution prints alone; or as customized wall art. Select your size, print medium and framing that best suits your decor and preferences.</div>
+                    <div className='buy_copy'>Click this button to see the online store:</div>
+                    <Link to={{ pathname: 'https://studio.solitophotography.com' }} rel='noreferrer' className='common_button' target="_blank" >Shop Photography</Link>
                 </div>
                     
             </div>
