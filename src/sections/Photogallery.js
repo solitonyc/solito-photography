@@ -138,8 +138,6 @@ export default class Photogallery extends Component {
                         <img className='pg_grid_image' alt='' src={PhotoImage032} />
                     </div>                    
                 </div> 
-                <div className='pg_body'>Check out my online store for buying photography images and as framed wall art:</div> 
-                <Link to={{ pathname: 'https://studio.solitophotography.com' }} rel='noreferrer' className='common_button' target="_blank" >Shop Photography</Link>  
                    
             </div>
         )
