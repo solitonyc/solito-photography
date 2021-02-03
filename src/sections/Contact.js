@@ -7,7 +7,7 @@ export default class Contact extends Component {
         return (
             <div className='contact_section' id='contact'>
                 <div className='contact_content_container'>
-                    <div className='contact_headline'>Hire Me</div>
+                    <div className='contact_headline'>HIRE ME</div>
                     <div className='contact_headline2'>Contact Me For the Following:</div>
                     <div className='contact_copy'>
                         <ul>
