@@ -20,8 +20,8 @@ export default class Contact extends Component {
                             <li>Events</li>
                             <li>Specific Contract Work</li>
                         </ul>
-                        <p>Phone: (646) 403.7500<br />
-                        Email: solito@xegomedia.com</p>
+                        <p><span className='bold_this'>Phone:</span> (646) 403.7500<br />
+                        <span className='bold_this'>Email:</span> solito@xegomedia.com</p>
                     </div>
                 </div>                    
             </div>
