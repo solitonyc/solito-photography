@@ -39,6 +39,16 @@ export default class Navigation extends Component {
                 <Link
                     className='nav-links'
                     activeClass='active'
+                    to='buy'
+                    spy={true}
+                    smooth={true}
+                    offset={-38}
+                    duration={500}
+                    >BUY</Link>
+
+                <Link
+                    className='nav-links'
+                    activeClass='active'
                     to='about'
                     spy={true}
                     smooth={true}
