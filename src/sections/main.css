@@ -37,7 +37,7 @@
 }
 .main_headline {
     font-family: 'Playfair Display', serif;
-    font-size: 8em;
+    font-size: 6em;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
     line-height: 1em;
@@ -46,7 +46,7 @@
 }
 .main_headline_2 {
     font-family: 'Playfair Display', serif;
-    font-size: 4em;
+    font-size: 3em;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
     line-height: .5em;
