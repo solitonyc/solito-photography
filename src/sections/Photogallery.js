@@ -1,6 +1,6 @@
 import './photogallery.css';
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+
 
 import PhotoImage001 from '../sections/images-photogallery/a_img.jpg';
 import PhotoImage002 from '../sections/images-photogallery/b_img.jpg';
