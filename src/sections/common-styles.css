@@ -28,3 +28,14 @@
     color: rgb(255, 255, 255);
     border: 1px rgb(0, 0, 0) solid;
 }
+.button_copy {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    color: rgb(0,0,0);
+    letter-spacing: .07rem;
+    line-height: 1.1em;
+    /* text-shadow: rgb(0,0,0) .04em .04em; */
+    /* letter-spacing: .08rem; */
+    margin: 1.5em 0 0;
+    max-width: 27em;
+}

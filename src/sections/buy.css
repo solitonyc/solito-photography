@@ -43,15 +43,27 @@
     line-height: 1em;
     margin: .25em 0;
     color: rgb(99, 15, 88);
+    text-shadow: rgb(214, 13, 197) .02em .02em;
 }
 .buy_copy {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4em;
     color: rgb(0,0,0);
-    letter-spacing: .12rem;
+    letter-spacing: .07rem;
     line-height: 1.1em;
     /* text-shadow: rgb(0,0,0) .04em .04em; */
     /* letter-spacing: .08rem; */
     margin: 1.5em 0 0;
-    max-width: 30em;
+    max-width: 27em;
+}
+.buy_button_copy {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    color: rgb(0,0,0);
+    letter-spacing: .07rem;
+    line-height: 1.1em;
+    /* text-shadow: rgb(0,0,0) .04em .04em; */
+    /* letter-spacing: .08rem; */
+    margin: 1.5em 0 0;
+    max-width: 27em;
 }
