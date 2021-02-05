@@ -6,7 +6,7 @@
     font-size: .9em;
     font-weight: 800;
     /* background-color: rgb(76, 210, 219); */
-    background-image: linear-gradient(rgb(19,193,223), rgb(15,51,129));
+    background-image: linear-gradient(rgb(19,193,223), rgb(16, 46, 110));
     border-radius: .5em;
     border: 1px rgb(0,0,0) solid;
     color: rgb(255,255,255);
@@ -19,6 +19,12 @@
     width: 14em;    
 }
 .common_button:hover {
-    background-image: linear-gradient(rgb(19,193,223), rgb(19,193,223));
+    background-image: linear-gradient(rgb(16,46,110), rgb(15, 65, 173));
     color: rgb(255,255,255);
+    border: 1px rgb(0,0,0) solid;
+}
+.common_button:active {
+    background-image: linear-gradient(rgb(15, 143, 47), rgb(15,143,47));
+    color: rgb(255, 255, 255);
+    border: 1px rgb(0, 0, 0) solid;
 }
