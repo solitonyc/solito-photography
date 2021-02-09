@@ -15,7 +15,8 @@ export default class Main extends Component {
                 <div style={style} className='main_section_background'>
                     <div className='main_content_container'>
                         <img className='big_logo' alt='' src={bigLogo} />                                            
-                        <div className='main_copy'>See store to shop photos alone or as framed, wall art:</div>
+                        <div className='main_headline_2'>Shop photos alone or as framed wall art</div>
+                        <div className='main_copy'>Click the button below<br /> to browse store:</div>
                         <Link to={{ pathname: 'https://studio.solitophotography.com' }} rel='noreferrer' className='common_button' target="_blank" >Buy Photography</Link>
                     </div>
                 </div>
