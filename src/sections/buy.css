@@ -34,7 +34,7 @@
 	align-items: stretch;
 	align-content: stretch;
     width: 80vw;
-    
+    padding: 3em 1.6em 0;    
 }
 .buy_headline {
     font-family: 'Playfair Display', serif;
@@ -67,4 +67,59 @@
     /* letter-spacing: .08rem; */
     margin: 1.5em 0 0;
     max-width: 27em;
+}
+
+
+/*------------------------------MEDIA QUERIES------------------------------------*/
+
+
+
+/* -------------------- SMALL PHONES ------------- */
+@media screen and (max-width: 479.5px) and (min-width: 319px){  
+    .buy_section_background {
+        background-attachment: scroll;  
+    }
+    .buy_content_container {
+        width: 100vw;
+        height: 100vh;
+        padding: 0 1.6em 0;  
+    }
+    .buy_headline {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.1em;
+        line-height: 1em;
+        letter-spacing: .15rem;
+        max-width: 14rem;        
+    }
+    .buy_headline_2 {  
+        font-family: 'Playfair Display', serif;
+        font-size: 1em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+    }
+    .buy_copy {       
+        font-family: 'Montserrat', sans-serif;
+        font-size: .9em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;
+        margin: .6rem 0 0;      
+        max-width: 12rem;
+    }
+    .buy_button_copy {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.3em;
+        font-weight: 400;
+        color: rgb(0,0,0);
+        letter-spacing: .05rem;
+        line-height: 1.1em;
+        /* text-shadow: rgb(0,0,0) .04em .04em; */
+        /* letter-spacing: .08rem; */
+        margin: 1.5em 0 0;
+        max-width: 14rem;
+    }
+    .buy_logo {
+        width: 8rem;
+    }
+
 }

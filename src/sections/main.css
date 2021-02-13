@@ -94,3 +94,49 @@
     color: rgb(0,0,0); 
     cursor: pointer;
 }
+
+
+
+
+
+/*------------------------------MEDIA QUERIES------------------------------------*/
+
+
+
+/* -------------------- SMALL PHONES ------------- */
+@media screen and (max-width: 479.5px) and (min-width: 319px){  
+    .main_section_background {
+        background-attachment: scroll;  
+    }
+    .main_content_container {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,.6);
+        padding: 0 0;
+    }
+    .main_headline {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.1em;
+        line-height: 1em;        
+    }
+    .main_headline_2 {  
+        font-family: 'Playfair Display', serif;
+        font-size: 1em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+        max-width: 14rem;
+    }
+    .main_copy {       
+        font-family: 'Montserrat', sans-serif;
+        font-size: .9em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;
+        margin: .6rem 0 0;      
+        max-width: 14rem;
+    }
+    .big_logo {
+        width: 14rem;
+    }
+
+}

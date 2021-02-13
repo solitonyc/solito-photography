@@ -10,7 +10,7 @@ export default class About extends Component {
         }
         return (
             <div className='about_section' id='about'>
-                <div style={style} className='main_section_background'>
+                <div style={style} className='about_section_background'>
                     <div className='about_content_container'>
                         <div className='about_headline'>ABOUT ME</div>
                         <div className="about_copy">

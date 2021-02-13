@@ -10,7 +10,6 @@
 	align-content: center;
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0,0,0,1);
 }
 .about_section_background {
     display: flex;
@@ -53,4 +52,38 @@
     /* letter-spacing: .08rem; */
     margin: 1.5em 0 0;
     max-width: 30em;
+}
+
+
+
+
+/*------------------------------MEDIA QUERIES------------------------------------*/
+
+
+/*---------------SMALL MOBILE--------------------*/
+@media screen and (max-width: 479.5px) and (min-width: 319px){  
+    .about_section_background {
+        background-attachment: scroll;  
+        
+    }
+    .about_content_container {
+        background-color: rgba(0,0,0,.5);
+        padding: 0 0;
+        margin: 0 0;
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    .about_headline {
+        font-size: 2em;
+        padding: 0 2rem 0;       
+    }
+    .about_copy {       
+        font-size: .9em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;
+        margin: .6rem 0 0;  
+        padding: 0 2rem;    
+        max-width: 14rem;
+    }
 }

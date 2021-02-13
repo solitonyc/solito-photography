@@ -68,3 +68,61 @@
     font-weight: 900;
     font-size: 1.1em;
 }
+
+
+
+
+/*------------------------------MEDIA QUERIES------------------------------------*/
+
+
+/*---------------SMALL MOBILE--------------------*/
+@media screen and (max-width: 479.5px) and (min-width: 319px){  
+    .contact_section_background {
+        background-attachment: scroll;  
+    }
+    .contact_content_container {
+        width: 100vw;
+        height: 100vh;
+    }
+    .contact_headline {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.1em;
+        line-height: 1em;
+        letter-spacing: .15rem;
+        max-width: 14rem; 
+        padding: 0 2rem;       
+    }
+    .contact_headline_2 {  
+        font-family: 'Playfair Display', serif;
+        font-size: 1em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+        padding: 0 2rem;
+    }
+    .contact_copy {       
+        font-family: 'Montserrat', sans-serif;
+        font-size: .9em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;
+        margin: .6rem 0 0;      
+        max-width: 18rem;
+        padding: 0 1rem;
+    }
+    .contact_button_copy {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.3em;
+        font-weight: 400;
+        color: rgb(0,0,0);
+        letter-spacing: .05rem;
+        line-height: 1.1em;
+        /* text-shadow: rgb(0,0,0) .04em .04em; */
+        /* letter-spacing: .08rem; */
+        margin: 1.5em 0 0;
+        max-width: 14rem;
+    }
+    .contact_logo {
+        width: 8rem;
+    }
+
+}

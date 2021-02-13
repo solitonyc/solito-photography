@@ -9,7 +9,6 @@
     background-image: linear-gradient(to right, rgb(18, 18, 18), rgb(0, 0, 0));
     color: white;
     padding-top: 8px;
-    padding-right: 40px;
     padding-bottom: 6px;
     z-index: 1;
 }
@@ -41,18 +40,23 @@
     padding-left: 20px;
 }
 
-@media screen and (max-width: 600px) {
+
+
+/*------------------------MEDIA QUERIES---------------------------*/
+
+
+
+/*-----------SMALL MOBILE------------*/
+@media screen and (max-width: 479.5px) and (min-width: 319px){ 
     .nav-bar {
         position: fixed;
-        padding-right: 100vw;  
     }
     .nav-links {
         display: none;
         width: 100vw;
     }
-
     .nav_logo {
-        width: 120px;
+        width:80px;
         float: left;
         padding: 0 12px;
     }

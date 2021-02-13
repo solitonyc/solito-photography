@@ -10,7 +10,7 @@ export default class Buy extends Component {
                 <div className='buy_content_container'>
                     <div className='buy_headline'>Browse My Photography Store</div>
                     <div className='buy_copy'>Build your collection of urban photography. Buy high-resolution prints alone or as custom, framed wall art. Select your size, print medium material and framing style that best suits your decor and preferences.</div>
-                    <div className='buy_button_copy'>Click this button to see the online store:</div>
+                    <div className='buy_button_copy'>Visit my online store:</div>
                     <Link to={{ pathname: 'https://studio.solitophotography.com' }} rel='noreferrer' className='common_button' target="_blank" >Buy Photography</Link>
                 </div>
                     
