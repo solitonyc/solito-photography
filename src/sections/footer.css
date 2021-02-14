@@ -15,6 +15,7 @@
 
 .footer_content {
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: rgb(165, 158, 158);
     margin: 0 auto;
@@ -40,6 +41,7 @@
 
 .yellow {
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: rgba(230, 213, 67, 1);
     text-decoration: none;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Playfair+Display:ital,wght@0,400;0,700;1,700&display=swap');
 
 .main_section {    
     display: flex;
@@ -42,6 +42,7 @@
 }
 .main_headline {
     font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 6em;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
@@ -51,6 +52,7 @@
 }
 .main_headline_2 {
     font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 2.5em;
     color: rgb(255,255,255);
     letter-spacing: .25rem;
@@ -62,6 +64,7 @@
 }
 .main_copy {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 1.5em;
     letter-spacing: .05em;
     color: rgb(255,255,255);
@@ -74,8 +77,8 @@
 }
 .main_button {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: .9em;
-    font-weight: 800;
     /* background-color: rgb(76, 210, 219); */
     background-image: linear-gradient(#13c1df, #0f3381);
     border-radius: 1em;

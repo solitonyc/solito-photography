@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Playfair+Display:ital,wght@0,400;0,700;1,700&display=swap');
 
 
 .common_button {
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
-    font-weight: 800;
+    font-weight: 400;
     /* background-color: rgb(76, 210, 219); */
     background-image: linear-gradient(rgb(19,193,223), rgb(16, 46, 110));
     border-radius: .5em;
@@ -30,6 +30,7 @@
 }
 .button_copy {
     font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 1.4em;
     color: rgb(0,0,0);
     letter-spacing: .07rem;
