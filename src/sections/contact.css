@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Playfair+Display:wght@700;900&display=swap');
 
 
 .contact_section {    
@@ -37,6 +37,7 @@
 }
 .contact_headline {
     font-family: 'Playfair Display', serif;
+    font-style: italic;
     font-weight: 700;
     font-size: 8em;
     letter-spacing: .25rem;
@@ -46,6 +47,7 @@
 }
 .contact_headline_2 {
     font-family: 'Playfair Display', serif;
+    font-style: italic;
     font-weight: 700;
     font-size: 4em;
     letter-spacing: .25rem;
@@ -70,7 +72,7 @@
     color: rgb(0,0,0);
     letter-spacing: .12rem;
     line-height: 1.2em;
-    margin: 1rem 0 0;
+    margin: 0 0;
     max-width: 30em;
 }
 .bold_this {
@@ -150,7 +152,7 @@
     .contact_headline_2 {  
         font-family: 'Playfair Display', serif;
         font-size: 1em;   
-        letter-spacing: .1em;
+        letter-spacing: .01em;
         line-height: 1em;
         margin: .15rem 0;
         padding: 0 0 0 3rem;

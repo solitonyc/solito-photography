@@ -1,5 +1,28 @@
 
-
+.pg_section {    
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(20,20,20);
+}
+.pg_section_background {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;  
+}
 
 /*------------------ PHOTOGALLERY GRID CODE -------------------------*/
 /* -------------- DESKTOP PHOTO GALLERY GRID CODE - (Min Width 1500px)------------------------------------- */

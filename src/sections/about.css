@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Playfair+Display:wght@700;900&display=swap');
 
 
 .about_section {    
@@ -38,6 +38,7 @@
 }
 .about_headline {
     font-family: 'Playfair Display', serif;
+    font-style: italic;
     font-weight: 900;
     font-size: 8em;
     color: rgb(255,255,255);
@@ -75,6 +76,7 @@
     .about_headline {
         font-family: 'Playfair Display', serif;
         font-size: 5em;
+        letter-spacing: .05em; 
         padding: 0 0 0 6rem;       
     }
     .about_copy {   
@@ -103,7 +105,8 @@
     }
     .about_headline {
         font-family: 'Playfair Display', serif;
-        font-size: 2em;
+        font-size: 2.3em;
+        letter-spacing: .05em; 
         padding: 0 4rem 0;       
     }
     .about_copy {   
