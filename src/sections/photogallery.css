@@ -57,6 +57,8 @@
     transition: .2s ease-in-out;
 }
 
+
+/*---------------------MEDIA QUERIES------------------------*/
 /* -------------------- LARGE TABLET ------------- */
 @media screen and (max-width: 1200px) and (min-width: 992px) {
     .pg_grid_container {
@@ -76,7 +78,7 @@
 
 }
 
-/* -------------------- SMALL and LARGE PHONES ------------- */
+/* -------------------- LARGE PHONES ------------- */
 @media screen and (max-width: 767.5px) and (min-width: 480px){
     .pg_grid_container {
         margin: 2rem; 
@@ -86,7 +88,7 @@
 
 }
 
-/* -------------------- SMALL and LARGE PHONES ------------- */
+/* -------------------- SMALL PHONES ------------- */
 @media screen and (max-width: 479.5px) and (min-width: 319px){
     .pg_grid_container {
         margin: 2rem; 
