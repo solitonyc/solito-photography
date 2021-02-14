@@ -9,6 +9,7 @@
 	align-items: center;
 	align-content: center;
     height: 100vh;
+    min-height:50rem;
     width: 100vw;
 }
 .about_section_background {
@@ -17,6 +18,7 @@
 	flex-wrap: nowrap;
 	justify-content: center;
     height: 100vh;
+    min-height: 50rem;
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,6 +37,7 @@
     /* height: 80vh; */
     /* max-width: 1200px; */
     width: 80vw;
+    min-height: 50rem;
 }
 .about_headline {
     font-family: 'Playfair Display', serif;
@@ -60,6 +63,65 @@
 
 
 /*------------------------------MEDIA QUERIES------------------------------------*/
+
+/* -------------------- LARGE TABLET ------------- */
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .about_section_background {
+        background-attachment: scroll;          
+    }
+    .about_content_container {
+        background-color: rgba(0,0,0,.5);
+        padding: 0 0;
+        margin: 0 0;
+        width: 100vw;
+        height: 100vh;        
+    }
+    .about_headline {
+        font-family: 'Playfair Display', serif;
+        font-size: 5em;
+        letter-spacing: .05em; 
+        padding: 0 0 0 6rem;       
+    }
+    .about_copy {   
+        font-family: 'Montserrat', sans-serif;    
+        font-size: 1.5em;
+        letter-spacing: .05em;  
+        line-height: 1.2em;
+        margin: .6rem 0 0;  
+        padding: 0 0 0 6rem;    
+        max-width: 28rem;
+    }
+}
+
+/* -------------------- SMALL TABLET ------------- */
+@media screen and (max-width: 991.5px) and (min-width: 768px){    
+    .about_section_background {
+        background-attachment: scroll;          
+    }
+    .about_content_container {
+        background-color: rgba(0,0,0,.5);
+        padding: 0 0;
+        margin: 0 0;
+        width: 100vw;
+        height: 100vh;        
+    }
+    .about_headline {
+        font-family: 'Playfair Display', serif;
+        font-size: 5em;
+        letter-spacing: .05em; 
+        padding: 0 0 0 6rem;       
+    }
+    .about_copy {   
+        font-family: 'Montserrat', sans-serif;    
+        font-size: 1.5em;
+        letter-spacing: .05em;  
+        line-height: 1.2em;
+        margin: .6rem 0 0;  
+        padding: 0 0 0 6rem;    
+        max-width: 28rem;
+    }
+
+}
 
 /* -------------------- LARGE PHONES ------------- */
 @media screen and (max-width: 767.5px) and (min-width: 480px){

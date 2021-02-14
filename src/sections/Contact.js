@@ -8,7 +8,7 @@ export default class Contact extends Component {
             <div className='contact_section' id='contact'>
                 <div className='contact_content_container'>
                     <div className='contact_headline'>HIRE ME</div>
-                    <div className='contact_headline_2'>Contact Me For the Following:</div>
+                    <div className='contact_headline_2'>Contact Me For Photography Work:</div>
                     <div className='contact_copy'>
                         <ul className='contact_ul'>
                             <li>Social Media Content</li>

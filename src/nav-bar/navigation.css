@@ -17,7 +17,7 @@
     font-size: .75rem;
     list-style: none;
     padding: 1rem 1rem 1.2rem 1rem;
-    margin-right: 18px;
+    margin-right: 1em;
 }   
 .nav-links-last {
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +25,7 @@
     font-size: .7em;
     list-style: none;
     padding: 5px 20px 10px 10px;
-    margin-right: 18px;
+    margin-right: 1em;
 }   
 
 .nav-bar > .active {
@@ -36,9 +36,9 @@
 }
 
 .nav_logo {
-    width: 80px;
+    width: 5rem;
     float: left;
-    padding-left: 20px;
+    padding-left: 1rem;
 }
 
 
@@ -48,7 +48,7 @@
 
 
 /*-----------SMALL MOBILE------------*/
-@media screen and (max-width: 479.5px) and (min-width: 319px){ 
+@media screen and (max-width: 640px) and (min-width: 319px){ 
     .nav-bar {
         position: fixed;
     }

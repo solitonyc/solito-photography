@@ -9,6 +9,7 @@
 	align-items: center;
 	align-content: center;
     height: 100vh;
+    min-height: 50rem;
     width: 100vw;
     background-color: rgb(173, 200, 216);
 }
@@ -42,7 +43,7 @@
     font-size: 8em;
     letter-spacing: .25rem;
     line-height: 1em;
-    margin: .25em 0;
+    margin: 0 0;
     color: rgb(0,0,0);
 }
 .contact_headline_2 {

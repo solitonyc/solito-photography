@@ -11,6 +11,7 @@
     align-items: center;
     align-self: center;
     align-content: stretch; 
+    width: 100vw;
 }
 .footer_content {
     font-family: 'Montserrat', sans-serif;
