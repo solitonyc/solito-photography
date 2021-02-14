@@ -45,7 +45,7 @@
 }
 .contact_headline_2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2em;
+    font-size: 4em;
     letter-spacing: .25rem;
     line-height: 1em;
     margin: .25em 0 0;
@@ -57,7 +57,7 @@
     color: rgb(0,0,0);
     letter-spacing: .12rem;
     line-height: 1em;
-    margin: 0 0 0;
+    margin: 1rem 0;
     max-width: 30em;
 }
 .contact_ul {
@@ -65,8 +65,8 @@
     font-size: 1.4em;
     color: rgb(0,0,0);
     letter-spacing: .12rem;
-    line-height: 1em;
-    margin: 0 0 0;
+    line-height: 1.2em;
+    margin: 1rem 0 0;
     max-width: 30em;
 }
 .bold_this {
