@@ -53,13 +53,12 @@
     color: rgb(0,0,0);
     letter-spacing: .05rem;
     line-height: 1.1em;
-    /* text-shadow: rgb(0,0,0) .04em .04em; */
-    /* letter-spacing: .08rem; */
     margin: 1.5em 0 0;
     max-width: 42rem;
 }
 .buy_button_copy {
     font-family: 'Playfair Display', serif;
+    font-weight: 700;
     font-size: 1.4em;
     font-weight: 700;
     color: rgb(0,0,0);
