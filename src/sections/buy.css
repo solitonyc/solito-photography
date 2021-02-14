@@ -61,7 +61,7 @@
 .buy_button_copy {
     font-family: 'Playfair Display', serif;
     font-size: 1.4em;
-    font-weight: 400;
+    font-weight: 700;
     color: rgb(0,0,0);
     letter-spacing: .05rem;
     line-height: 1.1em;
@@ -98,7 +98,6 @@
     }
     .buy_button_copy {
         font-family: 'Playfair Display', serif;
-        font-weight: 400;
         font-size: 1.3em;
         padding: 0 1rem;
         max-width: 14rem;

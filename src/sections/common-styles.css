@@ -5,7 +5,6 @@
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
     font-weight: 400;
-    /* background-color: rgb(76, 210, 219); */
     background-image: linear-gradient(rgb(19,193,223), rgb(16, 46, 110));
     border-radius: .5em;
     border: 1px rgb(0,0,0) solid;
@@ -35,8 +34,6 @@
     color: rgb(0,0,0);
     letter-spacing: .07rem;
     line-height: 1.1em;
-    /* text-shadow: rgb(0,0,0) .04em .04em; */
-    /* letter-spacing: .08rem; */
     margin: 0 0;
     max-width: 27em;
 }

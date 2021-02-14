@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Playfair+Display:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 .nav-bar {
     position: fixed;
-    /* top: 0;
-    left: 0; */
     text-align: right;
     width: 100vw;
     background-image: linear-gradient(to right, rgb(18, 18, 18), rgb(0, 0, 0));
@@ -15,6 +13,7 @@
 
 .nav-links {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: .75rem;
     list-style: none;
     padding: 1rem 1rem 1.2rem 1rem;
@@ -22,6 +21,7 @@
 }   
 .nav-links-last {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: .7em;
     list-style: none;
     padding: 5px 20px 10px 10px;
@@ -30,6 +30,7 @@
 
 .nav-bar > .active {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: rgb(219, 84, 31);
     border-bottom: 2px solid white;    
 }
