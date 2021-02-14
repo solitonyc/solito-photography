@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,900&display=swap');
 
 .contact_section {    
     display: flex;
@@ -44,7 +43,7 @@
     margin: .25em 0;
     color: rgb(0,0,0);
 }
-.contact_headline2 {
+.contact_headline_2 {
     font-family: 'Playfair Display', serif;
     font-size: 2em;
     letter-spacing: .25rem;
@@ -58,8 +57,15 @@
     color: rgb(0,0,0);
     letter-spacing: .12rem;
     line-height: 1em;
-    /* text-shadow: rgb(0,0,0) .04em .04em; */
-    /* letter-spacing: .08rem; */
+    margin: 0 0 0;
+    max-width: 30em;
+}
+.contact_ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    color: rgb(0,0,0);
+    letter-spacing: .12rem;
+    line-height: 1em;
     margin: 0 0 0;
     max-width: 30em;
 }
@@ -74,6 +80,47 @@
 
 /*------------------------------MEDIA QUERIES------------------------------------*/
 
+/* -------------------- LARGE PHONES ------------- */
+@media screen and (max-width: 767.5px) and (min-width: 480px){
+    .contact_section_background {
+        background-attachment: scroll;  
+    }
+    .contact_content_container {
+        width: 100vw;
+        height: 100vh;
+    }
+    .contact_headline {
+        font-size: 6em;
+        line-height: 1em;
+        letter-spacing: .15rem;        
+        padding: 0 0 0 6rem; 
+        max-width: 30rem;       
+    }
+    .contact_headline_2 {  
+        font-size: 2em;   
+        letter-spacing: .17rem;
+        line-height: 1em;
+        margin: .15em 0;
+        padding: 0 0 0 6rem;
+        max-width: 40rem;
+    }
+    .contact_ul {       
+        font-size: 1.3em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;             
+        padding: 0 0 0 6rem;  
+        max-width: 26rem;      
+    } 
+    .contact_copy {       
+        font-size: 1.4em;
+        letter-spacing: .03em;  
+        line-height: 1.4em;
+        margin: .6rem 0 0;      
+        max-width: 30rem;
+        padding: 0 0 0 3rem;
+    }
+   
+}
 
 /*---------------SMALL MOBILE--------------------*/
 @media screen and (max-width: 479.5px) and (min-width: 319px){  
@@ -85,44 +132,34 @@
         height: 100vh;
     }
     .contact_headline {
-        font-family: 'Playfair Display', serif;
         font-size: 2.1em;
         line-height: 1em;
         letter-spacing: .15rem;
         max-width: 14rem; 
-        padding: 0 2rem;       
+        padding: 0 0 0 3rem;       
     }
     .contact_headline_2 {  
-        font-family: 'Playfair Display', serif;
         font-size: 1em;   
-        letter-spacing: .17rem;
+        letter-spacing: .1em;
         line-height: 1em;
-        margin: .15em 0;
-        padding: 0 2rem;
+        margin: .15rem 0;
+        padding: 0 0 0 3rem;
+        max-width: 22rem;
     }
+    .contact_ul {       
+        font-size: .9em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;             
+        padding: 0 0 0 4rem;        
+    } 
     .contact_copy {       
-        font-family: 'Montserrat', sans-serif;
         font-size: .9em;
         letter-spacing: .03em;  
         line-height: 1.2em;
-        margin: .6rem 0 0;      
-        max-width: 18rem;
-        padding: 0 1rem;
-    }
-    .contact_button_copy {
-        font-family: 'Playfair Display', serif;
-        font-size: 1.3em;
-        font-weight: 400;
-        color: rgb(0,0,0);
-        letter-spacing: .05rem;
-        line-height: 1.1em;
-        /* text-shadow: rgb(0,0,0) .04em .04em; */
-        /* letter-spacing: .08rem; */
-        margin: 1.5em 0 0;
-        max-width: 14rem;
-    }
-    .contact_logo {
-        width: 8rem;
-    }
+        margin: .6rem 0 0;     
+        padding: 0 0 0 2em;
+        max-width: 22rem;
+    } 
+  
 
 }

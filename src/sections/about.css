@@ -49,7 +49,6 @@
     font-size: 1.4em;
     color: rgb(255,255,255);
     text-shadow: rgba(0,0,0,1) .04em .04em;
-    /* letter-spacing: .08rem; */
     margin: 1.5em 0 0;
     max-width: 30em;
 }
@@ -59,31 +58,55 @@
 
 /*------------------------------MEDIA QUERIES------------------------------------*/
 
-
-/*---------------SMALL MOBILE--------------------*/
-@media screen and (max-width: 479.5px) and (min-width: 319px){  
+/* -------------------- LARGE PHONES ------------- */
+@media screen and (max-width: 767.5px) and (min-width: 480px){
     .about_section_background {
-        background-attachment: scroll;  
-        
+        background-attachment: scroll;          
     }
     .about_content_container {
         background-color: rgba(0,0,0,.5);
         padding: 0 0;
         margin: 0 0;
         width: 100vw;
-        height: 100vh;
-        
+        height: 100vh;        
+    }
+    .about_headline {
+        font-size: 5em;
+        padding: 0 0 0 6rem;       
+    }
+    .about_copy {       
+        font-size: 1.5em;
+        letter-spacing: .05em;  
+        line-height: 1.2em;
+        margin: .6rem 0 0;  
+        padding: 0 0 0 6rem;    
+        max-width: 28rem;
+    }
+
+}
+
+/*---------------SMALL MOBILE--------------------*/
+@media screen and (max-width: 479.5px) and (min-width: 319px){  
+    .about_section_background {
+        background-attachment: scroll;          
+    }
+    .about_content_container {
+        background-color: rgba(0,0,0,.5);
+        padding: 0 0;
+        margin: 0 0;
+        width: 100vw;
+        height: 100vh;        
     }
     .about_headline {
         font-size: 2em;
-        padding: 0 2rem 0;       
+        padding: 0 4rem 0;       
     }
     .about_copy {       
         font-size: .9em;
         letter-spacing: .03em;  
         line-height: 1.2em;
         margin: .6rem 0 0;  
-        padding: 0 2rem;    
+        padding: 0 4rem;    
         max-width: 14rem;
     }
 }

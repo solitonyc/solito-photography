@@ -63,8 +63,6 @@
     color: rgb(0,0,0);
     letter-spacing: .05rem;
     line-height: 1.1em;
-    /* text-shadow: rgb(0,0,0) .04em .04em; */
-    /* letter-spacing: .08rem; */
     margin: 1.5em 0 0;
     max-width: 27em;
 }
@@ -72,7 +70,37 @@
 
 /*------------------------------MEDIA QUERIES------------------------------------*/
 
+/* -------------------- LARGE PHONES ------------- */
+@media screen and (max-width: 767.5px) and (min-width: 480px){
+    .buy_section_background {
+        background-attachment: scroll;  
+    }
+    .buy_content_container {
+        height: 100vh;
+    }
+    .buy_headline {
+        font-size: 4em;
+        line-height: 1em;
+        letter-spacing: .15rem;
+        padding: 0 1rem;
+        max-width: 20rem;        
+    }
+   
+    .buy_copy {       
+        font-size: 1.3em;
+        letter-spacing: .03em;  
+        line-height: 1.2em;
+        padding: 0 1rem ;      
+        max-width: 26rem;
+    }
+    .buy_button_copy {
+        font-size: 1.3em;
+        padding: 0 1rem;
+        max-width: 14rem;
+    }
+   
 
+}
 
 /* -------------------- SMALL PHONES ------------- */
 @media screen and (max-width: 479.5px) and (min-width: 319px){  
@@ -80,46 +108,28 @@
         background-attachment: scroll;  
     }
     .buy_content_container {
-        width: 100vw;
         height: 100vh;
-        padding: 0 1.6em 0;  
     }
     .buy_headline {
-        font-family: 'Playfair Display', serif;
         font-size: 2.1em;
         line-height: 1em;
         letter-spacing: .15rem;
+        padding: 0 1rem;
         max-width: 14rem;        
     }
-    .buy_headline_2 {  
-        font-family: 'Playfair Display', serif;
-        font-size: 1em;   
-        letter-spacing: .17rem;
-        line-height: 1em;
-        margin: .15em 0;
-    }
+   
     .buy_copy {       
-        font-family: 'Montserrat', sans-serif;
         font-size: .9em;
         letter-spacing: .03em;  
         line-height: 1.2em;
-        margin: .6rem 0 0;      
-        max-width: 12rem;
+        padding: 0 1rem ;      
+        max-width: 15rem;
     }
     .buy_button_copy {
-        font-family: 'Playfair Display', serif;
         font-size: 1.3em;
-        font-weight: 400;
-        color: rgb(0,0,0);
-        letter-spacing: .05rem;
-        line-height: 1.1em;
-        /* text-shadow: rgb(0,0,0) .04em .04em; */
-        /* letter-spacing: .08rem; */
-        margin: 1.5em 0 0;
+        padding: 0 1rem;
         max-width: 14rem;
     }
-    .buy_logo {
-        width: 8rem;
-    }
+ 
 
 }
