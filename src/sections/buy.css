@@ -38,6 +38,7 @@
 }
 .buy_headline {
     font-family: 'Playfair Display', serif;
+    font-weight: 900;
     font-size: 6em;
     letter-spacing: .25rem;
     line-height: 1em;
@@ -47,6 +48,7 @@
 }
 .buy_copy {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 1.4em;
     color: rgb(0,0,0);
     letter-spacing: .05rem;
@@ -79,14 +81,15 @@
         height: 100vh;
     }
     .buy_headline {
+        font-family: 'Playfair Display', serif;
         font-size: 4em;
         line-height: 1em;
         letter-spacing: .15rem;
         padding: 0 1rem;
         max-width: 20rem;        
-    }
-   
-    .buy_copy {       
+    }   
+    .buy_copy {  
+        font-family: 'Montserrat', sans-serif;     
         font-size: 1.3em;
         letter-spacing: .03em;  
         line-height: 1.2em;
@@ -94,6 +97,8 @@
         max-width: 26rem;
     }
     .buy_button_copy {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
         font-size: 1.3em;
         padding: 0 1rem;
         max-width: 14rem;
@@ -111,6 +116,7 @@
         height: 100vh;
     }
     .buy_headline {
+        font-family: 'Playfair Display', serif;
         font-size: 2.1em;
         line-height: 1em;
         letter-spacing: .15rem;
@@ -118,7 +124,8 @@
         max-width: 14rem;        
     }
    
-    .buy_copy {       
+    .buy_copy {  
+        font-family: 'Montserrat', sans-serif;      
         font-size: .9em;
         letter-spacing: .03em;  
         line-height: 1.2em;
@@ -126,6 +133,8 @@
         max-width: 15rem;
     }
     .buy_button_copy {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
         font-size: 1.3em;
         padding: 0 1rem;
         max-width: 14rem;

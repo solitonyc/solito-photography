@@ -14,6 +14,7 @@
 }
 .pg_header {
     font-family: 'Playfair Display', serif;
+    font-weight: 900;
     font-size: 84px;
     color: rgb(255,255,255);
     letter-spacing: .2em;
@@ -25,6 +26,7 @@
 }
 .pg_secondline {
     font-family: 'Playfair Display', serif;
+    font-weight: 700;
     font-size: 40px;
     color: rgb(255,255,255);
     letter-spacing: 1.4px;
@@ -36,8 +38,7 @@
 .pg_button {
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
-    font-weight: 800;
-    /* background-color: rgb(76, 210, 219); */
+    font-weight: 400;
     background-image: linear-gradient(#13c1df, #0f3381);
     border-radius: 1em;
     border: 1px rgb(0,0,0) solid;
@@ -52,7 +53,7 @@
 .pg_body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1em;
-    font-weight: 800;
+    font-weight: 400;
     color: rgb(255,255,255);
     display: flex;
 	flex-direction: row;

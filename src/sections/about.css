@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Playfair+Display:ital,wght@0,400;0,700;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,700&display=swap');
 
 .about_section {    
     display: flex;
@@ -38,6 +37,7 @@
 }
 .about_headline {
     font-family: 'Playfair Display', serif;
+    font-weight: 900;
     font-size: 8em;
     color: rgb(255,255,255);
     text-shadow: rgba(0,0,0,1) .04em .04em;
@@ -46,6 +46,7 @@
 }
 .about_copy {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 1.4em;
     color: rgb(255,255,255);
     text-shadow: rgba(0,0,0,1) .04em .04em;
@@ -71,10 +72,12 @@
         height: 100vh;        
     }
     .about_headline {
+        font-family: 'Playfair Display', serif;
         font-size: 5em;
         padding: 0 0 0 6rem;       
     }
-    .about_copy {       
+    .about_copy {   
+        font-family: 'Montserrat', sans-serif;    
         font-size: 1.5em;
         letter-spacing: .05em;  
         line-height: 1.2em;
@@ -98,10 +101,12 @@
         height: 100vh;        
     }
     .about_headline {
+        font-family: 'Playfair Display', serif;
         font-size: 2em;
         padding: 0 4rem 0;       
     }
-    .about_copy {       
+    .about_copy {   
+        font-family: 'Montserrat', sans-serif;    
         font-size: .9em;
         letter-spacing: .03em;  
         line-height: 1.2em;
